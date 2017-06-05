@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  SSCollectionViewCell.h
 //  SSAnimationDemo
 //
 //  Created by lss on 2015/5/30.
@@ -8,10 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface SSCollectionViewCell : UICollectionViewCell
 
-@property (strong, nonatomic) UIWindow *window;
-
+-(void)configData:(NSObject *)obj;
 
 @end
-

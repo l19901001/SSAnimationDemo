@@ -15,6 +15,16 @@
 		01255C311EDDB16C00D9F9E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01255C2F1EDDB16C00D9F9E6 /* LaunchScreen.storyboard */; };
 		01255C3C1EDDB16C00D9F9E6 /* SSAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01255C3B1EDDB16C00D9F9E6 /* SSAnimationDemoTests.m */; };
 		01255C471EDDB16C00D9F9E6 /* SSAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01255C461EDDB16C00D9F9E6 /* SSAnimationDemoUITests.m */; };
+		01255C561EDDB1C100D9F9E6 /* SSCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01255C551EDDB1C100D9F9E6 /* SSCollectionView.m */; };
+		01255C591EDDB20C00D9F9E6 /* SSCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01255C581EDDB20C00D9F9E6 /* SSCollectionViewCell.m */; };
+		01255C5D1EDE890900D9F9E6 /* BasicAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 01255C5C1EDE890900D9F9E6 /* BasicAnimation.m */; };
+		01255C601EDE891800D9F9E6 /* KeyFrameAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 01255C5F1EDE891800D9F9E6 /* KeyFrameAnimation.m */; };
+		01255C631EDE892700D9F9E6 /* Transion.m in Sources */ = {isa = PBXBuildFile; fileRef = 01255C621EDE892700D9F9E6 /* Transion.m */; };
+		01255C661EDE893300D9F9E6 /* AnimaMtuble.m in Sources */ = {isa = PBXBuildFile; fileRef = 01255C651EDE893300D9F9E6 /* AnimaMtuble.m */; };
+		01255C691EDE894400D9F9E6 /* UIViewAnimation_ss.m in Sources */ = {isa = PBXBuildFile; fileRef = 01255C681EDE894400D9F9E6 /* UIViewAnimation_ss.m */; };
+		01255C6C1EDE895400D9F9E6 /* GroupAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 01255C6B1EDE895400D9F9E6 /* GroupAnimation.m */; };
+		01255C6F1EDE8BED00D9F9E6 /* Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 01255C6E1EDE8BED00D9F9E6 /* Animation.m */; };
+		01A4418E1EE5077B00875556 /* UINavigationController+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4418D1EE5077B00875556 /* UINavigationController+EX.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,26 @@
 		01255C421EDDB16C00D9F9E6 /* SSAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01255C461EDDB16C00D9F9E6 /* SSAnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSAnimationDemoUITests.m; sourceTree = "<group>"; };
 		01255C481EDDB16C00D9F9E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01255C541EDDB1C100D9F9E6 /* SSCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCollectionView.h; sourceTree = "<group>"; };
+		01255C551EDDB1C100D9F9E6 /* SSCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCollectionView.m; sourceTree = "<group>"; };
+		01255C571EDDB20C00D9F9E6 /* SSCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCollectionViewCell.h; sourceTree = "<group>"; };
+		01255C581EDDB20C00D9F9E6 /* SSCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCollectionViewCell.m; sourceTree = "<group>"; };
+		01255C5B1EDE890900D9F9E6 /* BasicAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicAnimation.h; sourceTree = "<group>"; };
+		01255C5C1EDE890900D9F9E6 /* BasicAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicAnimation.m; sourceTree = "<group>"; };
+		01255C5E1EDE891800D9F9E6 /* KeyFrameAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyFrameAnimation.h; sourceTree = "<group>"; };
+		01255C5F1EDE891800D9F9E6 /* KeyFrameAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyFrameAnimation.m; sourceTree = "<group>"; };
+		01255C611EDE892700D9F9E6 /* Transion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transion.h; sourceTree = "<group>"; };
+		01255C621EDE892700D9F9E6 /* Transion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transion.m; sourceTree = "<group>"; };
+		01255C641EDE893300D9F9E6 /* AnimaMtuble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimaMtuble.h; sourceTree = "<group>"; };
+		01255C651EDE893300D9F9E6 /* AnimaMtuble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimaMtuble.m; sourceTree = "<group>"; };
+		01255C671EDE894400D9F9E6 /* UIViewAnimation_ss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAnimation_ss.h; sourceTree = "<group>"; };
+		01255C681EDE894400D9F9E6 /* UIViewAnimation_ss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAnimation_ss.m; sourceTree = "<group>"; };
+		01255C6A1EDE895400D9F9E6 /* GroupAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupAnimation.h; sourceTree = "<group>"; };
+		01255C6B1EDE895400D9F9E6 /* GroupAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupAnimation.m; sourceTree = "<group>"; };
+		01255C6D1EDE8BED00D9F9E6 /* Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation.h; sourceTree = "<group>"; };
+		01255C6E1EDE8BED00D9F9E6 /* Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation.m; sourceTree = "<group>"; };
+		01A4418C1EE5077B00875556 /* UINavigationController+EX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+EX.h"; sourceTree = "<group>"; };
+		01A4418D1EE5077B00875556 /* UINavigationController+EX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+EX.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +131,19 @@
 		01255C201EDDB16C00D9F9E6 /* SSAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				01255C6D1EDE8BED00D9F9E6 /* Animation.h */,
+				01255C6E1EDE8BED00D9F9E6 /* Animation.m */,
+				01A4418C1EE5077B00875556 /* UINavigationController+EX.h */,
+				01A4418D1EE5077B00875556 /* UINavigationController+EX.m */,
+				01255C5A1EDE88F300D9F9E6 /* AnimationView */,
 				01255C241EDDB16C00D9F9E6 /* AppDelegate.h */,
 				01255C251EDDB16C00D9F9E6 /* AppDelegate.m */,
 				01255C271EDDB16C00D9F9E6 /* ViewController.h */,
 				01255C281EDDB16C00D9F9E6 /* ViewController.m */,
+				01255C541EDDB1C100D9F9E6 /* SSCollectionView.h */,
+				01255C551EDDB1C100D9F9E6 /* SSCollectionView.m */,
+				01255C571EDDB20C00D9F9E6 /* SSCollectionViewCell.h */,
+				01255C581EDDB20C00D9F9E6 /* SSCollectionViewCell.m */,
 				01255C2A1EDDB16C00D9F9E6 /* Main.storyboard */,
 				01255C2D1EDDB16C00D9F9E6 /* Assets.xcassets */,
 				01255C2F1EDDB16C00D9F9E6 /* LaunchScreen.storyboard */,
@@ -138,6 +177,25 @@
 				01255C481EDDB16C00D9F9E6 /* Info.plist */,
 			);
 			path = SSAnimationDemoUITests;
+			sourceTree = "<group>";
+		};
+		01255C5A1EDE88F300D9F9E6 /* AnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				01255C5B1EDE890900D9F9E6 /* BasicAnimation.h */,
+				01255C5C1EDE890900D9F9E6 /* BasicAnimation.m */,
+				01255C5E1EDE891800D9F9E6 /* KeyFrameAnimation.h */,
+				01255C5F1EDE891800D9F9E6 /* KeyFrameAnimation.m */,
+				01255C611EDE892700D9F9E6 /* Transion.h */,
+				01255C621EDE892700D9F9E6 /* Transion.m */,
+				01255C641EDE893300D9F9E6 /* AnimaMtuble.h */,
+				01255C651EDE893300D9F9E6 /* AnimaMtuble.m */,
+				01255C671EDE894400D9F9E6 /* UIViewAnimation_ss.h */,
+				01255C681EDE894400D9F9E6 /* UIViewAnimation_ss.m */,
+				01255C6A1EDE895400D9F9E6 /* GroupAnimation.h */,
+				01255C6B1EDE895400D9F9E6 /* GroupAnimation.m */,
+			);
+			path = AnimationView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +265,7 @@
 				TargetAttributes = {
 					01255C1D1EDDB16B00D9F9E6 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H9J7BEYSA2;
 						ProvisioningStyle = Automatic;
 					};
 					01255C361EDDB16C00D9F9E6 = {
@@ -274,7 +333,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				01255C291EDDB16C00D9F9E6 /* ViewController.m in Sources */,
+				01255C5D1EDE890900D9F9E6 /* BasicAnimation.m in Sources */,
+				01A4418E1EE5077B00875556 /* UINavigationController+EX.m in Sources */,
+				01255C6F1EDE8BED00D9F9E6 /* Animation.m in Sources */,
 				01255C261EDDB16C00D9F9E6 /* AppDelegate.m in Sources */,
+				01255C691EDE894400D9F9E6 /* UIViewAnimation_ss.m in Sources */,
+				01255C631EDE892700D9F9E6 /* Transion.m in Sources */,
+				01255C591EDDB20C00D9F9E6 /* SSCollectionViewCell.m in Sources */,
+				01255C561EDDB1C100D9F9E6 /* SSCollectionView.m in Sources */,
+				01255C601EDE891800D9F9E6 /* KeyFrameAnimation.m in Sources */,
+				01255C6C1EDE895400D9F9E6 /* GroupAnimation.m in Sources */,
+				01255C661EDE893300D9F9E6 /* AnimaMtuble.m in Sources */,
 				01255C231EDDB16C00D9F9E6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,9 +491,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H9J7BEYSA2;
 				INFOPLIST_FILE = SSAnimationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lsscom.com.SSAnimationDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = lsscom.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -433,9 +504,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H9J7BEYSA2;
 				INFOPLIST_FILE = SSAnimationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lsscom.com.SSAnimationDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = lsscom.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -505,6 +578,7 @@
 				01255C4D1EDDB16C00D9F9E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01255C4E1EDDB16C00D9F9E6 /* Build configuration list for PBXNativeTarget "SSAnimationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +587,7 @@
 				01255C501EDDB16C00D9F9E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01255C511EDDB16C00D9F9E6 /* Build configuration list for PBXNativeTarget "SSAnimationDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +596,7 @@
 				01255C531EDDB16C00D9F9E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

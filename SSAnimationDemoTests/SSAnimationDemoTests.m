@@ -2,8 +2,8 @@
 //  SSAnimationDemoTests.m
 //  SSAnimationDemoTests
 //
-//  Created by lss on 2017/5/30.
-//  Copyright © 2017年 lss. All rights reserved.
+//  Created by lss on 2015/5/30.
+//  Copyright © 2015年 lss. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
